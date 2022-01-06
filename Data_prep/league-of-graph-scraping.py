@@ -40,7 +40,7 @@ for row in output_rows:
 for row in output_rows:
     print(row)
 
-with open('champion-info-extra.csv', 'w') as csvfile:
+with open('output2.csv', 'w') as csvfile:
     writer = csv.writer(csvfile)
     writer.writerows(output_rows)
 
