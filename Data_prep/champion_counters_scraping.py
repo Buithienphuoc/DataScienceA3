@@ -46,10 +46,3 @@ with open('champion-bestwith-counters-bestagainst.csv', 'w') as csvfile:
     for row in output_rows[1:]:
         print(row)
         writer.writerow(row)
-
-with open('champion-bestwith-counters-bestagainst.csv', 'w') as csvfile:
-    writer = csv.writer(csvfile)
-    # Because the first row has error so I will put it in another file then add it again
-    for row in output_rows:
-        print(row)
-        writer.writerow(row)
